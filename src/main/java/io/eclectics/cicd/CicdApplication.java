@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CicdApplication {
 
-	@GetMapping
+	@GetMapping("/test")
 	public String message(){
 		return "welcome to my first jenkins cicd test";
 	}
